@@ -1,0 +1,59 @@
+/* Layout */
+
+html {
+    background: #F7F7F7;
+}
+
+body {
+    width: 92%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+
+/* Header */
+
+#header {
+    margin-bottom: 20px;
+    padding: 10px 0 0;
+    color: #eee;
+    background-color: #342D39;
+}
+
+#header a:hover {
+    color: #eee;
+}
+
+#header .logo,
+#header .baseline {
+    margin-left: 20px;
+}
+
+#header .baseline {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#header .cssn_mainnav,
+#header .cssn_mainmenu > li > a {
+    border-color: #666;
+}
+
+/* Footer */
+
+#footer {
+    padding: 10px 20px;
+    color: #bbb;
+}
+
+/* Content */
+
+.block-content {
+    padding: 0 20px;
+    margin: 0 0 80px 0;
+}
+
+.pha-table,
+.pha-form {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
